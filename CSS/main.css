@@ -1,0 +1,45 @@
+.photo__photo {
+    border: 2px solid #ffc0cb56;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 6px #2f4f4f85;
+    width: 300px;
+}
+
+.photo__button {
+    width: 300px;
+    border: 2px solid #ffc0cb56;
+    border-radius: 10px;
+    color: #2f4f4f;
+    background-color: #ffc0cb56;
+    box-shadow: 5px 5px 10px 6px #2f4f4f85;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 30px 0px 30px 0px;
+}
+
+.description {
+    color: #2f4f4f;
+    line-height: 1.5;
+}
+
+.description__title {
+    color: #2f4f4f;
+    margin-top: 50px;
+}
+
+.description__article {
+    border: 2px solid #ffc0cb56;
+    border-radius: 10px;
+    background-color: #ffc0cb56;
+    padding: 15px;
+    box-shadow: 5px 5px 10px 6px #2f4f4f85;
+}
+
+.description__article--study {
+    color: rgba(34, 34, 34, 0.685);
+}
+
+.description__listItem {
+    padding: 5px;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrianna Tyburska</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/header.css" rel="stylesheet">
+    <link href="CSS/navigation.css" rel="stylesheet">
+    <link href="CSS/main.css" rel="stylesheet">
+    <link href="CSS/table.css" rel="stylesheet">
+    <link href="CSS/link.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <script defer src="JS/scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <header class="header">
+        <h1>Witaj na mojej stronie!</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__listItem"><a class="link" href="#Kilka-słów-o-mnie">Kilka słów o mnie</a></li>
+            <li class="navigation__listItem"><a class="link" href="#Studia-i-wykształcenie">Studia i wykształcenie</a>
+            </li>
+            <li class="navigation__listItem"><a class="link" href="#Praca">Praca</a></li>
+            <li class="navigation__listItem"><a class="link" href="#Świat-Harrego-Pottera">Świat Harrego Pottera</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="photo">
+            <img class="photo__photo" src="image/TLMB0050.jpg" alt="Adrianna">
+            <p>
+                <button class="photo__button js-button">Ukryj zdjęcie!</button>
+            </p>
+        </section>
+
+        <section class="description" id="Kilka-słów-o-mnie">
+            <h2 class="description__title">Kilka słów o mnie</h2>
+            <article class="description__article">
+                <p>Mam na imię <strong>Adrianna</strong>, w grudniu tego roku skończę 24 lata. Jestem wielką fanką
+                    uniwersum Harrego Pottera. Jakbym była czarownicą moim Patronusem byłaby świnka, a kolor różowy
+                    przeważa we wszystkim co posiadam. W wolnym czasie czytam książki lub grywam w The Sims 4. Od zawsze chciałam
+                    umieć napisać stronę internetową, mam nadzieje, że w końcu mi się uda. </p>
+            </article>
+        </section>
+        <section class="description" id="Studia-i-wykształcenie">
+            <h2 class="description__title">Studia i wykształcenie</h2>
+            <article class="description__article">
+                <p>Jestem absolwentką Uniwersytatu Gdańskiego, gdzie studiowałam Zarządzanie na specjalizacji Marketing.
+                    Skończyłam pierwszy rok studiów magisterskich na kierunku <span class="description__article--study">Informatyka w
+                        Biznesie</span>. Jednocześnie studiuję Zarządzanie projektami w ramach studiów podyplomowych.
+                <p>Po za studiami uczestniczyłam w różnych kursach:</p>
+                <ul>
+                    <li class="description__listItem">Zarządzanie wymaganiami</li>
+                    <li class="description__listItem">Praktyczna nauka notacji BPMN</li>
+                    <li class="description__listItem">Scrum Master</li>
+                </ul>
+                </p>
+            </article>
+        </section>
+        <section class="description" id="Praca">
+            <h2 class="description__title">Praca</h2>
+            <article class="description__article">
+                <p>Z branżą IT jestem związana od prawie 4 lat. Rozpoczęłam swoją pracę w firmie świadczącej usługi
+                    Informatyczne na stanowisku Asystentki Zarządu, to właśnie tam zainteresowałam się bliżej szeroko
+                    pojętym światem IT.
+                    Obecnie zajmuje się utrzymaniem jednego z systemów, który udostępniamy naszym klientom jak również administruję stronami WWW.
+                </p>
+                <p>Mam jednak nadzieje, że to nie koniec mojego rozwoju, dlatego własnie jestem tu gdzie jestem i
+                    <em>witam się z Wami z mojej pierwszej strony.</em>
+                </p>
+            </article>
+        </section>
+        <section class="container" id="Świat-Harrego-Pottera">
+            <h2 class="container__title">Świat Harrego Pottera</h2>
+            <table class="table">
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                    <th class="table__cell table__cell--header" scope="col">Autorka </th>
+                    <th class="table__cell table__cell--header" scope="col">Data wydania książki</th>
+                    <th class="table__cell table__cell--header" scope="col">Reżyser</th>
+                    <th class="table__cell table__cell--header" scope="col">Data premiery filmu</th>
+                    <th class="table__cell table__cell--header" scope="col">Data premiry filmu w Polsce</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header">Harry Potter i Kamień Filozoficzany</th>
+                    <td class="table__cell" rowspan="8">J.K. Rowling</td>
+                    <td class="table__cell">26.06.1997</td>
+                    <td class="table__cell" rowspan="2">Chris Columbus</td>
+                    <td class="table__cell">04.11.2001</td>
+                    <td class="table__cell">18.01.2002</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header">Harry Potter i Komnata Tajemnic</th>
+                    <td class="table__cell">02.07.1998</td>
+                    <td class="table__cell">03.11.2002</td>
+                    <td class="table__cell">01.01.2003</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header">Harry Potter i Więzień Azkabanu</th>
+                    <td class="table__cell">08.07.1999</td>
+                    <td class="table__cell">Alfonso Cuarón</td>
+                    <td class="table__cell">26.06.1997</td>
+                    <td class="table__cell">04.06.2004</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header">Harry Potter i Czara Ognia</th>
+                    <td class="table__cell">08.07.2000</td>
+                    <td class="table__cell">Mike Newell</td>
+                    <td class="table__cell">06.11.2005</td>
+                    <td class="table__cell">25.11.2005</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header">Harry Potter i Zakon Feniksa</th>
+                    <td class="table__cell">21.06.2003</td>
+                    <td class="table__cell" rowspan="4">David Yates</td>
+                    <td class="table__cell">28.06.2007</td>
+                    <td class="table__cell">27.07.2007</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header">Harry Potter i Książe Półkrwi</th>
+                    <td class="table__cell">16.07.2005</td>
+                    <td class="table__cell">06.07.2009</td>
+                    <td class="table__cell">24.07.2009</td>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" rowspan="2">Harry Potter i Insygnia Śmierci
+                    </th>
+                    <td class="table__cell" rowspan="2">21.07.2007</td>
+                    <td class="table__cell">11.11.2010</td>
+                    <td class="table__cell">19.11.2010</td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__cell">07.07.2011</td>
+                    <td class="table__cell">15.07.2011</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer class="footer">
+        © Copyright by Adrianna Tyburska
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.navigation {
+    border: 2px solid #ffc0cb56;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffc0cb56;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px 6px #2f4f4f85;
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.navigation__listItem {
+    margin: 5px;
+}

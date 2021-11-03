@@ -1,0 +1,22 @@
+.link {
+    color: #2f4f4f;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #222;
+}
+
+.link:focus {
+    outline: 2px solid currentColor;
+}
+
+.link:hover {
+    color: grey;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: darkgray;
+}

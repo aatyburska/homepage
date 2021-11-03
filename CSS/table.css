@@ -1,0 +1,28 @@
+.container {
+    overflow-x: auto;
+}
+
+.container__title {
+    color: #2f4f4f;
+    margin-top: 50px;
+}
+
+.table__row {
+    color: #2f4f4f;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.table__cell--header {
+    background-color: #ffc0cb56;
+    border: 1px solid white;
+}
+
+.table__cell {
+    border: 1px solid #ffc0cb56;
+    padding: 15px;
+    text-align: center;
+}
+
