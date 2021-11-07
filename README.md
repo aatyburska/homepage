@@ -4,7 +4,7 @@
 
 https://aatyburska.github.io/homepage/
 
-![Animation] (https://github.com/aatyburska/homepage/blob/main/image/Animation.gif?raw=true)
+![Animation](https://github.com/aatyburska/homepage/blob/main/image/Animation.gif?raw=true)
 
 ## Description
 
