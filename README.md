@@ -1,9 +1,19 @@
-# Adrianna Tyburska - moja pierwsza strona
+# Adrianna Tyburska
 
 ## Demo
 
 https://aatyburska.github.io/homepage/
 
-## Opis
+## Description
 
-Moja pierwsza strona internetowa stworzona w trakcje kursu w YouCode
+Welcome to my first course website.
+
+## Use methodologies
+
+HTML
+CSS
+JavaScript
+Flexbox
+BEM
+Media queries
+Arrow function in JS
