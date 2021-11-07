@@ -1,4 +1,4 @@
-# Adrianna Tyburska - moja pierwsza srtrona
+# Adrianna Tyburska - moja pierwsza strona
 
 ## Demo
 
