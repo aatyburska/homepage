@@ -4,16 +4,18 @@
 
 https://aatyburska.github.io/homepage/
 
+![Animation] (https://github.com/aatyburska/homepage/blob/main/image/Animation.gif?raw=true)
+
 ## Description
 
 Welcome to my first course website.
 
 ## Use methodologies
 
-HTML
-CSS
-JavaScript
-Flexbox
-BEM
-Media queries
-Arrow function in JS
+- HTML
+- CSS
+- JavaScript
+- BEM
+- Flexbox
+
+
